@@ -1,0 +1,4 @@
+interface:
+  display_name: "Orcas Obsidian"
+  short_description: "用自然语言运营个人 Obsidian 知识、任务与资料"
+  default_prompt: "使用 $orcas-obsidian 处理 inbox 中的新材料，提取人物、行动项和可复用知识。"

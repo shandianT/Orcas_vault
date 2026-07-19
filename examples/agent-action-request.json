@@ -1,0 +1,27 @@
+{
+  "protocol": "orcas-action-v1",
+  "request_id": "meeting-20260719-001",
+  "intent": "extract_meeting",
+  "actions": [
+    {
+      "type": "ingest_source",
+      "path": "inbox/采购会议.md"
+    },
+    {
+      "type": "upsert_entity",
+      "kind": "person",
+      "name": "Nicole",
+      "aliases": ["Niko"],
+      "tags": ["采购"],
+      "source": "sources/采购会议.md",
+      "status": "draft"
+    },
+    {
+      "type": "create_action_item",
+      "summary": "准备采购侧数据分析 Demo",
+      "owner": "小涓",
+      "source": "sources/采购会议.md",
+      "status": "draft"
+    }
+  ]
+}

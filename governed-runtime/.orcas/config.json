@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "profile": "work-first",
+  "paths": {
+    "inbox": "inbox",
+    "processed": "inbox/_processed",
+    "sources": "sources",
+    "knowledge_roots": ["knowledge"],
+    "knowledge": "knowledge/notes",
+    "projects": "work/tasks",
+    "playbooks": "knowledge/playbooks",
+    "publish": "work/outputs/publishing",
+    "reports": ".orcas/reports",
+    "meta": ".orcas/meta",
+    "attachments": "knowledge/attachments"
+  },
+  "entities": {
+    "people": "knowledge/people",
+    "organizations": "knowledge/organizations",
+    "projects": "knowledge/projects"
+  }
+}

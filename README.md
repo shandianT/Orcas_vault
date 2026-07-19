@@ -90,6 +90,8 @@ work/        当前任务、行动项、决策和交付物
 - `orcas-obsidian-v0.8.1.zip`：完整项目包，包含 README、文档、测试、`starter-vault/`、Skill 和 Governed Runtime。
 - `orcas-obsidian-skill-v0.8.1.zip`：仅 Skill 包，不包含完整项目文档和根目录 Vault 模板。
 
+普通用户建议先下载完整项目包；已经知道怎么把 Skill 装进 Agent 环境的用户，可以只下载 Skill 包。
+
 完整项目包解压后会得到一个 `orcas-obsidian-v0.8.1/` 目录。若要开始使用新的 Obsidian 目录结构，优先使用其中的 `starter-vault/`。
 
 对应的 `.sha256` 文件用于校验下载是否完整。

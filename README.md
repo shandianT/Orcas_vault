@@ -2,7 +2,54 @@
 
 Orcas 是一套面向个人 Obsidian 的自然语言运营 Skill。
 
-用户把材料放入 `inbox/`，然后直接告诉 Agent 想完成什么。Skill 负责会议处理、实体整理、知识查询、任务准备、来源追溯和确认策略。
+你先把材料放进 Obsidian 的 `inbox/`，再直接告诉 Agent 你要做什么。Orcas 负责把会议纪要、人物、项目、知识、任务和确认流程整理到正确位置。
+
+## 怎么开始
+
+1. 下载并解压项目。
+2. 选择一个文件夹作为你的 Vault。
+3. 把这个 Vault 用 Obsidian 打开。
+4. 在 Obsidian 里安装并启用 Orcas Skill。
+5. 之后只要往 `inbox/` 放材料，然后用自然语言告诉 Agent 你的目标。
+
+如果你已经有自己的 Obsidian Vault，也可以直接把 Orcas 的模板内容合并进去，不一定要新建空库。
+
+## 在 Obsidian 里打开哪个文件夹
+
+打开的是你自己的 Vault 根目录，也就是包含这些文件夹的那个目录：
+
+```text
+inbox/
+sources/
+knowledge/
+work/
+```
+
+如果你是用本仓库里的模板，建议直接把 `starter-vault/` 复制成你的 Vault，然后在 Obsidian 中打开这个复制出来的文件夹。
+
+在 Obsidian 中通常这样做：
+
+1. 打开 Obsidian。
+2. 选择 `Open folder as vault`，或从侧边栏切换 Vault。
+3. 指向你的 Vault 根目录。
+4. 打开后确认能看到 `inbox/`、`sources/`、`knowledge/`、`work/`。
+
+## 日常使用流程
+
+```text
+1. 把新材料放进 inbox/
+2. 让 Agent 处理材料
+3. Agent 产出或更新 knowledge/、work/、sources/
+4. 你检查 draft、来源和需要确认的内容
+5. 需要确认时再升级为 trusted、删除或发布
+```
+
+常见做法：
+
+- 会议纪要进 `inbox/`，让 Agent 提取人物、需求、行动项和负责人。
+- 查询某个人、项目或事实时，直接提问，并要求给出来源。
+- 要做本周跟进或任务拆解时，让 Agent 在 `work/` 中整理。
+- 需要确认的结论，先保留为 `draft`，不要直接升级为 `trusted`。
 
 ## 默认架构
 
@@ -55,7 +102,7 @@ work/        当前任务、行动项、决策和交付物
 python3 orcas-skill/scripts/install.py /path/to/my-vault
 ```
 
-也可以直接复制 `starter-vault/`，然后在 Obsidian 中打开。
+也可以直接复制 `starter-vault/`，然后在 Obsidian 中打开这个文件夹。
 
 ## 两种模式
 

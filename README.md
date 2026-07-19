@@ -9,10 +9,10 @@ Orcas 是一套面向个人 Obsidian 的自然语言运营 Skill。
 1. 下载并解压项目。
 2. 选择一个文件夹作为你的 Vault。
 3. 把这个 Vault 用 Obsidian 打开。
-4. 在 Obsidian 里安装并启用 Orcas Skill。
+4. 在你使用的 Agent / 助手环境里安装并启用 Orcas Skill。
 5. 之后只要往 `inbox/` 放材料，然后用自然语言告诉 Agent 你的目标。
 
-如果你已经有自己的 Obsidian Vault，也可以直接把 Orcas 的模板内容合并进去，不一定要新建空库。
+如果你已经有自己的 Obsidian Vault，也可以直接把 Orcas 的模板内容合并进去，不一定要新建空库。Orcas Skill 本身不是装进 Obsidian 的插件，而是给能操作这个 Vault 的 Agent 用的。
 
 ## 在 Obsidian 里打开哪个文件夹
 

@@ -6,7 +6,7 @@
 python3 orcas-skill/scripts/install.py /path/to/my-vault
 ```
 
-在 Obsidian 中打开目标目录，并在 Agent 中启用 Orcas Skill。
+在 Obsidian 中打开目标目录。Orcas Skill 是给 Agent / 助手环境使用的，不是装进 Obsidian 本体里的插件；你需要在自己使用的 Agent 中启用它。
 
 ```text
 处理 inbox 里的新材料，提取人物、需求和行动项。保留来源，新增内容保持 draft。

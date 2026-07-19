@@ -1,6 +1,6 @@
 # Obsidian 使用指南
 
-Orcas 的默认形态是 Obsidian + 第三方 Agent + Orcas Skill。用户只进行自然语言交互。
+Orcas 的默认形态是 Obsidian + 第三方 Agent + Orcas Skill。Obsidian 负责打开 Vault，Orcas Skill 负责让 Agent 按规则读写这个 Vault；用户只进行自然语言交互。
 
 ## 日常流程
 
@@ -17,7 +17,7 @@ Orcas 的默认形态是 Obsidian + 第三方 Agent + Orcas Skill。用户只进
 
 个人模式是默认方案：
 
-- 不安装 `.orcas/` 和 `orcas.py`
+- 不在 Obsidian 里安装 `.orcas/` 或 `orcas.py`
 - Agent 可以直接编辑 active draft
 - Agent 不得修改 protected 状态
 - Git 或 Obsidian 文件恢复提供回滚
@@ -29,3 +29,5 @@ Orcas 的默认形态是 Obsidian + 第三方 Agent + Orcas Skill。用户只进
 ## 可选插件
 
 Copilot、Smart Connections 或其他支持文件访问与 Skill/SOP 的 Agent 插件都可以作为自然语言入口。插件不应建立第二套知识数据库，也不应绕过 Orcas 的来源和状态边界。
+
+如果你只是打开 Obsidian，看不到 Orcas 的“界面”，这是正常的；Orcas 的操作入口在 Agent 侧，不在 Obsidian 菜单里。
